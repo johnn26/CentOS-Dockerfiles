@@ -21,7 +21,7 @@ Launching PostgreSQL
 
 To connect to the container as the administrative `postgres` user:
 
-    docker run -it --rm --volumes-from=postgresql <yourname>/postgres sudo -u
+    docker run -it --rm --volumes-from=postgresql <yourname>/postgresql sudo -u
     postgres -H psql
 
 
